@@ -23,7 +23,7 @@ async function getForexExchangeRate(fromCurrency: string, toCurrency: string): P
 
 async function main() {
     try {
-      const fromCurrency = 'USD';
+      const fromCurrency = 'USA';
       const toCurrency = 'JPY';
   
       const exchangeRate = await getForexExchangeRate(fromCurrency, toCurrency);
