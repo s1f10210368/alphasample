@@ -8,7 +8,7 @@ export const run = async () => {
 
   const chain = new ConversationChain({ llm: llm });
 
-  const input1 = "ocamlで整数リストxsの要素を表示する関数をください";
+  const input1 = " リスト xs を引数にとり、その先頭要素を除いたリストを返す関数 remove : 'a list -> 'a list を定義せよ";
   const res1 = await chain.call({ input: input1 });
   console.log("A:", input1);
   console.log("B:", res1["response"]);
