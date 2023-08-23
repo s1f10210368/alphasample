@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = 'APIKEY';
+const API_KEY = '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';
 const BASE_URL = 'https://www.alphavantage.co/query?function=FX_DAILY&from_symbol=EUR&to_symbol=USD&apikey=demo';
 
 async function getForexExchangeRate(fromCurrency: string, toCurrency: string): Promise<number> {
@@ -23,7 +23,7 @@ async function getForexExchangeRate(fromCurrency: string, toCurrency: string): P
 
 async function main() {
     try {
-      const fromCurrency = 'USA';
+      const fromCurrency = 'USD';
       const toCurrency = 'JPY';
   
       const exchangeRate = await getForexExchangeRate(fromCurrency, toCurrency);
