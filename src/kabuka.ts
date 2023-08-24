@@ -1,15 +1,15 @@
 import axios from "axios";
 
 const getStockPrice = async () => {
-  const apiKey = "L9ZH7B1TW75Z7VZE ";  // Alpha VantageのAPIキーに置き換えてください
+  const apiKey = "";  // Alpha VantageのAPIキーに置き換えてください
   const symbol = "AAPL";  // 株価を取得したい会社を入力
-  const url = `https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=${symbol}&interval=60min&apikey=${apiKey}`;
+  const url = `https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=USDJPY&interval=15min&apikey=${apiKey}`;
 
   try {
     const response = await axios.get(url);
-    const timeSeries = response.data["Time Series (60min)"];
+    const timeSeries = response.data["Time Series (1min)"];
     const timestamps = Object.keys(timeSeries);
-    const latesttimestamps = timestamps.slice(0, 1);
+    const latesttimestamps = timestamps.slice(0, 2);
     
     latesttimestamps.forEach(timestamp => {
       console.log(`Time: ${timestamp}`);
@@ -27,3 +27,4 @@ const getStockPrice = async () => {
 getStockPrice();
 
 
+//多分最新の株価を取得できてる。
