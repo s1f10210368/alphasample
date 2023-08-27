@@ -18,6 +18,7 @@ export const runC = async () => {
     const res1 = await chain.call({ input: input1 });
     console.log("total:", res1["response"]);
     const aaa = res1["response"];
+    aaa
 };
 
 runC();

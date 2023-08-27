@@ -321,10 +321,10 @@ jsonpointer@^5.0.1:
   resolved "https://registry.npmjs.org/jsonpointer/-/jsonpointer-5.0.1.tgz"
   integrity sha512-p/nXbhSEcu3pZRdkW1OfJhpsVtW1gd4Wa1fnQc9YLiTfAjn0312eMKimbdIQzuZl9aa9xUGaRlP9T/CJE/ditQ==
 
-langchain@^0.0.131:
-  version "0.0.131"
-  resolved "https://registry.npmjs.org/langchain/-/langchain-0.0.131.tgz"
-  integrity sha512-7SDDiixSjcxOb9IUEL1DIwzsPMA508z/VFT6+X29dZ1bsNlna60pue1962VtHJOS5rqWVjztrV2WNWgUwisDyw==
+langchain@^0.0.135:
+  version "0.0.135"
+  resolved "https://registry.npmjs.org/langchain/-/langchain-0.0.135.tgz"
+  integrity sha512-H/WdGi6o4BkkD6dU6KlC0U5TAOA22yiuf+kS6AmN16QPSTU25JtcZZK3kYx+0luoJE1iCsxrec09D7Fgy3hEUQ==
   dependencies:
     "@anthropic-ai/sdk" "^0.5.7"
     ansi-styles "^5.0.0"
@@ -336,7 +336,7 @@ langchain@^0.0.131:
     js-tiktoken "^1.0.7"
     js-yaml "^4.1.0"
     jsonpointer "^5.0.1"
-    langsmith "~0.0.16"
+    langsmith "~0.0.26"
     ml-distance "^4.0.0"
     object-hash "^3.0.0"
     openai "^3.3.0"
@@ -348,10 +348,10 @@ langchain@^0.0.131:
     zod "^3.21.4"
     zod-to-json-schema "^3.20.4"
 
-langsmith@~0.0.16:
-  version "0.0.24"
-  resolved "https://registry.npmjs.org/langsmith/-/langsmith-0.0.24.tgz"
-  integrity sha512-wp04/ZPUZThVIJ817i4eqpyi2t/SWYeXBRbSr2I9S49AdSoou27X7ZGjmGyKL7U+bQRA7LrPgmcalhq0PUivWQ==
+langsmith@~0.0.26:
+  version "0.0.26"
+  resolved "https://registry.npmjs.org/langsmith/-/langsmith-0.0.26.tgz"
+  integrity sha512-TecBjdgYGMxNaWp2L2X0OVgu8lge2WeQ5UpDXluwF3x+kH/WHFVSuR1RCuP+k2628GSVFvXxVIyXvzrHYxrZSw==
   dependencies:
     "@types/uuid" "^9.0.1"
     commander "^10.0.1"
@@ -456,10 +456,10 @@ openai@^3.3.0:
     axios "^0.26.0"
     form-data "^4.0.0"
 
-openai@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.npmjs.org/openai/-/openai-4.0.1.tgz"
-  integrity sha512-UanMv/kCD/ylgOdBrkkRgkoFXdfENrXYWNvYdvPttXZaEJmRVY9MZSknlkWYH7iPMX6tTcz6szbI2d3O04UFag==
+openai@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.npmjs.org/openai/-/openai-4.2.0.tgz"
+  integrity sha512-zfvpO2eITIxIjTG8T6Cek7NB2dMvP/LW0TRUJ4P9E8+qbBNKw00DrtfF64b+fAV2+wUYCVyynT6iSycJ//TtbA==
   dependencies:
     "@types/node" "^18.11.18"
     "@types/node-fetch" "^2.6.4"

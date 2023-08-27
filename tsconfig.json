@@ -15,7 +15,7 @@
       "skipLibCheck": true,
       "forceConsistentCasingInFileNames": true
     },
-    "include": ["src/**/*"],
+    "include": ["src/**/*", "practice/talk.ts", "practice/kabukatest.ts", "practice/kabuka.ts", "practice/index.ts", "practice/alpha.ts"],
     "exclude": ["dist", "node_modules"],
     "compileOnSave": false
   }
