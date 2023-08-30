@@ -17,7 +17,7 @@ export const runAgent = async () => {
   );
 
   // first web検索
-  const firstPrompt = "世界で2番目に大きい美術館を教えてください";
+  const firstPrompt = "ゼノブレイド3の発売日を教えてください";
   const firstRes = await executor.call({ input: firstPrompt });
   console.log("User1", firstPrompt);
   console.log("Agent1", firstRes.output);
